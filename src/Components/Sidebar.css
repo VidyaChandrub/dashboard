@@ -1,0 +1,49 @@
+.mainSidebarcontainer{
+    flex : 0.8;
+    background-color:rgb(1, 1, 48) ;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.liContainer{
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+    margin-right: 2px;
+}
+
+.ulContainer{
+    margin-top: 30px;
+}
+
+.dashboardContainer{
+    display: flex;
+    margin-top: -10px;
+}
+
+.dashtext{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.sidebaricons{
+    width: 20px;
+    height: 20px;
+
+}
+
+.itemsName{
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    margin-left: -10px;
+}
+
+.scheduleContainer{
+    display: flex;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: rgba(186, 181, 190, 0.144);
+}
