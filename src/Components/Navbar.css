@@ -1,0 +1,43 @@
+.searchIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.hiIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.searchIconContainer{
+    display: flex;
+    flex: 0.5;
+    align-items:center;
+    background-color: whitesmoke;
+    padding: 6px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 45px;
+}
+
+.mainNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.helloContainer{
+    flex: 1.5;
+}
+
+.dashtext{
+    font-size: 17px;
+    margin-right: 118px;
+}
+
+.searchInput{
+    width: 100%;
+    border: none;
+    padding: 3px;
+    background-color: whitesmoke;
+}

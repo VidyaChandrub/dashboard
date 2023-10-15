@@ -1,5 +1,35 @@
 .mainHomerightbar{
     flex: 4;
-    background-color:rgba(255, 255, 255, 0.795);
+    background-color:rgba(252, 252, 255, 0.884);
     height: 100vh;
+}
+
+.ItemContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.ItemContainer1{
+    background-color: aliceblue;
+    width: 250px;
+    height: 20vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.taskProgress{
+    text-align: start;
+
+}
+
+.taskcounter{
+    text-align: start;
+}
+
+.month1{
+    text-align: start;
 }
