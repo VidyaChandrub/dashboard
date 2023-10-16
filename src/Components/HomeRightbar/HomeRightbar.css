@@ -1,6 +1,6 @@
 .mainHomerightbar{
     flex: 4;
-    background-color:rgba(252, 252, 255, 0.884);
+    background-color: lavender;
     height: 100vh;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .ItemContainer1{
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 250px;
     height: 20vh;
     margin-left: 10px;
@@ -23,13 +23,88 @@
 
 .taskProgress{
     text-align: start;
+    font-size: 13px;
+    color: rgba(62, 102, 102, 0.349);
+    margin-top: 33px;
+    margin-left: 140px;
 
 }
 
 .taskcounter{
     text-align: start;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -15px;
+    margin-left: 140px;
 }
 
 .month1{
     text-align: start;
+    margin-top: -20px;
+    font-size: 10px;
+    margin-left: 140px;
+
+}
+
+.Green{
+    color: rgba(8, 134, 8, 0.767);
+    font-weight: bolder;
+}
+
+.Red{
+    color: red;
+    font-weight: bolder;
+}
+
+span{
+    content: "\2191";
+}
+
+.Dollar{
+    /*border: 1px solid green;*/
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 35px;
+    margin-right: -110px;
+    background-color: rgba(197, 228, 212, 0.842);
+}
+
+.Ordernote{
+    /*border: 1px solid purple;*/
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 35px;
+    margin-right: -110px;
+    background-color: rgb(195, 152, 236);
+}
+
+.Balance{
+   /* border: 1px solid blue;*/
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 35px;
+    margin-right: -110px;
+    background-color:rgb(161, 205, 243);
+
+}
+
+.sale{
+    /*border: 1px solid red;*/
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 35px;
+    margin-right: -110px;
+    background-color: rgb(252, 205, 205);
 }
