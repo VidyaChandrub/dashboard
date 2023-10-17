@@ -1,7 +1,6 @@
 .mainHomerightbar{
     flex: 4;
     background-color: lavender;
-    height: 100vh;
 }
 
 .ItemContainer{
@@ -107,4 +106,65 @@ span{
     margin-left: 35px;
     margin-right: -110px;
     background-color: rgb(252, 205, 205);
+}
+
+.maincharts{
+    flex:2;
+}
+
+.MainTascontainer{
+    display: flex;
+    width: 92%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.tasCharts{
+    flex: 4;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 15x;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.Monthlyearring{
+    flex: 1.7;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.taskContainer{
+    text-align: start;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+.TastText{
+    text-align: start;
+    color: rgba(62, 102, 102, 0.349);
+    margin-top: -15px; 
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.six{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 60px;
+    
+    margin-right: 50%;
+}
+
+.newCus{
+    margin-left: 40%;
+    margin-right: 26%;
+    margin-top: -23px;
+    font-size: 13px;
 }
