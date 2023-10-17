@@ -168,3 +168,64 @@ span{
     margin-top: -23px;
     font-size: 13px;
 }
+
+.headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.Sellcontainer{
+    flex:1;
+}
+
+.Sellname{
+    font-size: 15px;
+    margin-right: 500px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.search2{
+    display: flex;
+    flex: 0.3;
+    align-items:center;
+    background-color: white;
+    padding: 6px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 45px;
+}
+
+.sInput{
+    width: 100%;
+    border: none;
+    padding: 3px;
+    background-color: white;
+}
+
+.lastdays{
+    color:rgba(62, 102, 102, 0.575);
+    font-size: 12px;
+    margin-left: 12px;
+    margin-right: 45px;
+}
+
+.thirdcontainer{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 45px;
+    border-radius: 10px;
+    
+}
+
+/* table, th, td{
+    border: 1px solid black;
+} */

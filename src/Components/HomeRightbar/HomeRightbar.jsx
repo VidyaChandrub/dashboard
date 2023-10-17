@@ -5,82 +5,87 @@ import dollarpng from "../Icons/dollarpng.png";
 import order from "../Icons/order.png";
 import balance from "../Icons/balance.png";
 import sale from "../Icons/sale.png";
-import { ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,PieChart, Pie, Sector, Cell } from 'recharts';
+import search from "../Icons/search.png";
+import abstract3d from "../Icons/abstract3d.jpg";
+import sharpill from "../Icons/sharpill.png";
+import { ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Sector, Cell } from 'recharts';
 
 const data = [
   {
     name: 'Jan',
-    uv: 590,
+    uv: 1000,
     amt: 1400,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Feb',
     uv: 868,
     amt: 1506,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Mar',
     uv: 1397,
     amt: 989,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Apr',
-    uv: 1480,
+    uv: 1100,
     amt: 1228,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'May',
-    uv: 1520,
+    uv: 1200,
     amt: 1100,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Jun',
-    uv: 1400,
+    uv: 600,
     amt: 1700,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Jul',
-    uv: 1400,
+    uv: 1200,
     amt: 1700,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Aug',
     uv: 1400,
     amt: 1700,
-    fill:"Blue"
+    fill: "Blue"
   },
   {
     name: 'Sep',
-    uv: 1400,
+    uv: 1250,
     amt: 1700,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Oct',
-    uv: 1400,
+    uv: 1100,
     amt: 1700,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Nov',
-    uv: 1400,
+    uv: 900,
     amt: 1700,
-    fill:"lavender"
+    fill: "lavender"
   },
   {
     name: 'Dec',
-    uv: 1400,
+    uv: 1100,
     amt: 1700,
-    fill:"lavender"
+    fill: "lavender"
   },
 ];
+
+
 
 const data1 = [
   { name: "Group A", value: 400 },
@@ -149,7 +154,7 @@ function HomeRightbar() {
           <div className="tasCharts">
             <p className="taskContainer">Overview</p>
             <p className="TastText">Monthly Earning</p>
-            <ResponsiveContainer width="100%" height="75%">
+            <ResponsiveContainer width="100%" height="78%">
               <ComposedChart
                 width={500}
                 height={100}
@@ -163,7 +168,7 @@ function HomeRightbar() {
               >
                 <CartesianGrid stroke="#f5f5f5" />
                 <XAxis dataKey="name" scale="band" />
-               {/* <YAxis />*/}
+                {/* <YAxis />*/}
                 <Tooltip />
                 {/*<Legend />*/}
                 <Bar dataKey="uv" barSize={20} fill="fill" />
@@ -182,7 +187,7 @@ function HomeRightbar() {
                 cx={150}
                 cy={90}
                 innerRadius={60}
-                outerRadius={80}
+                outerRadius={85}
                 fill="#8884d8"
                 paddingAngle={0}
                 dataKey="value"
@@ -192,7 +197,42 @@ function HomeRightbar() {
                 ))}
               </Pie>
             </PieChart>
-
+          </div>
+        </div>
+        <div className="thirdcontainer">
+          <div className="headline">
+            <div className="Sellcontainer">
+              <p className="Sellname">Product Sell</p>
+            </div>
+            <div className="search2">
+              <img src={`${search}`} className="searchIcon" alt="" />
+              <input type="search" className="sInput" placeholder="Search" />
+            </div>
+            <div>
+              <p className="lastdays">Last 30 Days</p>
+            </div>
+          </div>
+          <div>
+            <table width={1000}>
+              <tr>
+                <th>Product Name</th>
+                <th>Stock</th>
+                <th>Price</th>
+                <th>Total Sales</th>
+              </tr>
+              <tr>
+                <td><img src={abstract3d} width={80} height={50}/> Abstract 3D <br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, natus.</td>
+                <td>3</td>
+                <td>2</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td><img src={sharpill} width={80} height={50}/></td>
+                <td>3</td>
+                <td>2</td>
+                <td>6</td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
