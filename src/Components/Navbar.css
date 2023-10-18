@@ -12,7 +12,7 @@
     display: flex;
     flex: 0.5;
     align-items:center;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 6px;
     border-radius: 8px;
     margin-left: 25px;
@@ -39,5 +39,5 @@
     width: 100%;
     border: none;
     padding: 3px;
-    background-color: whitesmoke;
+    background-color: white;
 }

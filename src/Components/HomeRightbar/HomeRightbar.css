@@ -1,6 +1,6 @@
 .mainHomerightbar{
     flex: 4;
-    background-color: lavender;
+    background-color: whitesmoke;
 }
 
 .ItemContainer{
@@ -10,7 +10,7 @@
 }
 
 .ItemContainer1{
-    background-color: whitesmoke;
+    background-color: white;
     width: 250px;
     height: 20vh;
     margin-left: 10px;
@@ -192,13 +192,13 @@ span{
 
 .search2{
     display: flex;
-    flex: 0.3;
+    flex: 0.2;
     align-items:center;
     background-color: white;
     padding: 6px;
     border-radius: 8px;
-    margin-left: 25px;
-    margin-right: 45px;
+    margin-left: -15px;
+    margin-right: 15px;
 }
 
 .sInput{
@@ -226,6 +226,37 @@ span{
     
 }
 
-/* table, th, td{
-    border: 1px solid black;
-} */
+ .image3{
+    display: flex;
+   }
+
+th{
+    color:rgba(62, 102, 102, 0.575);
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.imagedata{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.imaged2nd{
+    color:rgba(62, 102, 102, 0.575);
+    font-size: 12px;
+}
+
+.imagestyle{
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.datamargin{
+    margin-top: 1px;
+}
+
+.head{
+    margin-left: 38px;
+}

@@ -215,22 +215,22 @@ function HomeRightbar() {
           <div>
             <table width={1000}>
               <tr>
-                <th>Product Name</th>
-                <th>Stock</th>
-                <th>Price</th>
-                <th>Total Sales</th>
+                <th align="left"><p className="head">Product Name</p></th>
+                <th align="left">Stock</th>
+                <th align="left">Price</th>
+                <th align="left">Total Sales</th>
               </tr>
               <tr>
-                <td><img src={abstract3d} width={80} height={50}/> Abstract 3D <br/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, natus.</td>
-                <td>3</td>
-                <td>2</td>
-                <td>6</td>
+                <td><div className="image3"><img className="imagestyle" src={abstract3d} width={80} height={50}/> <p className="datamargin"> <span className="imagedata">Abstract 3D</span> <br/><span className="imaged2nd"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, natus.</span></p></div></td>
+                <td align="left">32 in stock</td>
+                <td align="left" ><b>$45.99</b></td>
+                <td align="left">20</td>
               </tr>
               <tr>
-                <td><img src={sharpill} width={80} height={50}/></td>
-                <td>3</td>
-                <td>2</td>
-                <td>6</td>
+                <td><div className="image3"><img className="imagestyle" src={sharpill} width={80} height={50}/><p className="datamargin"> <span className="imagedata">Sharphness illusion</span> <br/><span className="imaged2nd"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, non?</span></p></div></td>
+                <td align="left">32 in stock</td>
+                <td align="left"><b>$45.99</b></td>
+                <td align="left">20</td>
               </tr>
             </table>
           </div>

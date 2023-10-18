@@ -1,8 +1,8 @@
 .mainSidebarcontainer{
     flex : 0.8;
-    background-color:rgb(1, 1, 48) ;
-    height: 100vh;
-    color: aliceblue;
+    /* background-color:rgb(1, 1, 48) ; */
+    background-color: rgb(20, 85, 107);
+    color: black;
 }
 
 .liContainer{
@@ -39,13 +39,52 @@
 .menu{
     display: flex;
     margin-left: -10px;
+    
 }
 
 .scheduleContainer{
     display: flex;
-    margin-left: 0px;
-    padding: 10px;
-    background-color: rgba(186, 181, 190, 0.144);
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 5px;
+    background-color: rgba(186, 181, 190, 0.377);
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 270px;
+}
+
+.menuText{
+     margin-left: 10px;
+    margin-top: 5px;
+}
+
+.profileicon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: -30px;
+    margin-top: -10px;
+    margin-bottom:-100px ;
+}
+
+.profileText{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: -3px;
+    /* margin-right: 20px; */
+}
+
+.profile{
+    list-style-type: none;
+    display: flex;
+}
+
+.border{
+    
+    border-radius: 10px;
+    background-color: rgba(186, 181, 190, 0.377);
+    margin-left: -9px;
+    margin-right: 25px;
+    padding: 5px;
+   
 }
