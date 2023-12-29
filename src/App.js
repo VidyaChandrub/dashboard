@@ -9,18 +9,24 @@ import Button from "./Button";
 //     </>
 //   )
 // }
-
+const ChildComponent = () => {
+    return(
+      <h1>I am Child</h1>
+    )
+}
 export default class App extends React.Component{
   render(){
     return(
       <>
-      <h1>Hi</h1>
+      <h1>Hi, I am Parent</h1>
+      <ChildComponent />
       </>
     )
   }
     
   
 }
+
 
 // import { ReactDOM } from "react";
 
