@@ -9,9 +9,13 @@ import Button from "./Button";
 //     </>
 //   )
 // }
-const ChildComponent = () => {
+const ChildComponent = (props) => {
     return(
+      <>
       <h1>I am Child</h1>
+      <p>Current date : {props.date}</p>
+      </>
+      
     )
 }
 export default class App extends React.Component{
@@ -19,7 +23,7 @@ export default class App extends React.Component{
     return(
       <>
       <h1>Hi, I am Parent</h1>
-      <ChildComponent />
+      <ChildComponent date={Date()}/>
       </>
     )
   }
