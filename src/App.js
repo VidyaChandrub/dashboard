@@ -1,4 +1,5 @@
 import React from "react";
+
 import Button from "./Button";
 
 // export default function App(){
@@ -12,8 +13,9 @@ import Button from "./Button";
 const ChildComponent = (props) => {
     return(
       <>
-      <h1>I am Child</h1>
+      <h1>I am Child {props.wish}</h1>
       <p>Current date : {props.date}</p>
+      <p>{props.names}</p>
       </>
       
     )
@@ -24,12 +26,78 @@ export default class App extends React.Component{
       <>
       <h1>Hi, I am Parent</h1>
       <ChildComponent date={Date()}/>
+      {/* passing array as props */}
+      <ChildComponent names={["Vidya", "bharu","sandhya"]}/> 
+      <ChildComponent names={["Vidya", "bharu","sandhya","padma","chandru"]}/> 
+
+      {/* Overring default prop */}
+      <ChildComponent wish={["Happy New Year"]} /> 
+
       </>
     )
   }
-    
   
 }
+// passing default props
+ChildComponent.defaultProps = {
+  wish : "good morning"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // import { ReactDOM } from "react";
