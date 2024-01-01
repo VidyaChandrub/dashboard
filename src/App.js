@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types"
 
 import Button from "./Button";
 
@@ -31,7 +32,7 @@ export default class App extends React.Component{
       <ChildComponent names={["Vidya", "bharu","sandhya","padma","chandru"]}/> 
 
       {/* Overring default prop */}
-      <ChildComponent wish={["Happy New Year"]} /> 
+      <ChildComponent wish={["vidya"]} /> 
 
       </>
     )
@@ -42,6 +43,10 @@ export default class App extends React.Component{
 ChildComponent.defaultProps = {
   wish : "good morning"
 }
+
+// Setting proptypes to ensure proper type of props is passed
+
+ChildComponent.propTypes = {wish: PropTypes.number.isRequired}
 
 
 
