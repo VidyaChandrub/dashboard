@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types"
+import Class2 from "./Class2";
 
 import Button from "./Button";
 
@@ -24,16 +25,20 @@ const ChildComponent = (props) => {
 export default class App extends React.Component{
   render(){
     return(
+      // <>
+      // <h1>Hi, I am Parent</h1>
+      // <ChildComponent date={Date()}/>
+      // {/* passing array as props */}
+      // <ChildComponent names={["Vidya", "bharu","sandhya"]}/> 
+      // <ChildComponent names={["Vidya", "bharu","sandhya","padma","chandru"]}/> 
+
+      // {/* Overring default prop */}
+      // <ChildComponent wish={["vidya"]} /> 
+
+      // </>
+
       <>
-      <h1>Hi, I am Parent</h1>
-      <ChildComponent date={Date()}/>
-      {/* passing array as props */}
-      <ChildComponent names={["Vidya", "bharu","sandhya"]}/> 
-      <ChildComponent names={["Vidya", "bharu","sandhya","padma","chandru"]}/> 
-
-      {/* Overring default prop */}
-      <ChildComponent wish={["vidya"]} /> 
-
+      <Class2 />
       </>
     )
   }
