@@ -10,4 +10,4 @@ class Class1 extends React.Component{
     }
 }
 
-export default Class1();
+export default Class1;
