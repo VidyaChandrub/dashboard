@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types"
 import Class2 from "./Class2";
+import Class1 from "./Class1";
 
 import Button from "./Button";
 
@@ -38,7 +39,8 @@ export default class App extends React.Component{
       // </>
 
       <>
-      <Class2 />
+      {/* <Class2 /> */}
+      <Class1 />
       </>
     )
   }
