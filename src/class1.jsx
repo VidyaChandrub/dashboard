@@ -11,7 +11,8 @@ class Class1 extends React.Component{
 
     handleClick(){
         this.setState({
-            name:"Vidya Chandru!"
+            name:"Vidya Chandru!",
+            college:"Oxford"
         })
     };
     render(){
