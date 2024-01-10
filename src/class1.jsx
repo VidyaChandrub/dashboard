@@ -12,7 +12,8 @@ class Class1 extends React.Component{
     handleClick(){
         this.setState({
             name:"Vidya Chandru!",
-            college:"Oxford"
+            college:"Oxford",
+            email:""
         })
     };
     render(){
